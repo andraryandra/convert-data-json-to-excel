@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5 table-responsive">
+        <table class="table caption-top table-hover table-striped shadow mt-2 mb-3">
+            <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
+                RCSMileAge
+            </caption>
+            
+            <thead>
+                <th>Create Time</th>
+                <th>permalink_url</th>
+                <th>id</th>
+                <th>Share</th>
+        </thead>
+        <tbody id="inputTable">
+        </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+
+  <script>
+
+function create(t,attr,parent_node,innerdata){
+                var dom = document.createElement(t)
+                for(key in attr){
+                        dom.setAttribute(key,attr[key])
+                }
+                dom.innerHTML = innerdata;
+                parent_node.appendChild(dom)
+                return dom;
+        }
+window.onload = function () {
+        var d = {
+                   "data": [
+                      {
+                         "created_time": "2017-11-10T01:24:47+0000",
+                         "permalink_url": "https://www.facebook.com/DBZSFANSOFICIAL2/posts/1539014319521507",
+                         "id": "949007375188874_1539014319521507"
+                      },
+                      {
+                         "created_time": "2017-11-10T01:23:37+0000",
+                         "permalink_url": "https://www.facebook.com/DBZSFANSOFICIAL2/posts/1539013649521574",
+                         "id": "949007375188874_1539013649521574"
+                      },
+                      {
+                         "created_time": "2017-11-09T23:59:15+0000",
+                         "permalink_url": "https://www.facebook.com/DBZSFANSOFICIAL2/posts/1538951229527816",
+                         "id": "949007375188874_1538951229527816",
+                         "shares": {
+                            "count": 20
+                         }
+                      },
+                      {
+                         "created_time": "2017-11-09T23:32:30+0000",
+                         "permalink_url": "https://www.facebook.com/DBZSFANSOFICIAL2/posts/1538935439529395",
+                         "id": "949007375188874_1538935439529395"
+                      },
+                       
+                    ]
+                }
+ var tb= document.getElementById('inputTable')   
+        f = {"created_time":1,"permalink_url":1,"id":1,"shares":1}
+        d['data'].forEach(function(val){
+                tr_dom = create('tr',{},tb,'')
+                Object.keys(f).forEach(function(tr){
+                        if(tr in  val){
+                                if('shares' == tr)
+                                        td_dom = create('td',{},tr_dom,val[tr]['count'])
+                                else
+                                        td_dom = create('td',{},tr_dom,val[tr])
+                        }else
+                                td_dom = create('td',{},tr_dom,'')
+                })
+        })
+
+     };
+</script>
+
+</html>

@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAMARA</title>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>    
+
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
+</head>
+  <body>
+    <!-- <div class="text-center m-3">
+        <h1 class="bg-info rounded-pill p-3 m-3 shadow-lg text-light fw-bold">Oprec SAMARA</h1>
+    </div> -->
+
+    <div class="container mt-5 shadow" style="font-size: 12px;">
+    <br>
+        <div class="table-responsive">
+            <table id="example" class="table caption-top table-hover table-striped shadow mt-2 mb-3" width="100%">
+                <caption class="fw-bold fs-3 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
+                    RCSMileAge
+                </caption>
+                
+                <thead>
+                    <!-- <tr>
+                        <th colspan="100" class="fw-bold fs-5 text-light bg-info shadow text-start " style="padding-left: 15px;">
+                            RCSMileAge
+                        </th>
+                    </tr> -->
+                <tr class="bg-primary text-light">
+                    <th scope="col">change_Number</th>
+                    <th scope="col">comments</th>
+                    <th scope="col">conflict_ID</th>
+                    <th scope="col">created_by</th>
+                    <th scope="col">created_date</th>
+                    <th scope="col">entry_Date</th>
+                    <th scope="col">entry_Time</th>
+                    <th scope="col">integration_Datetime</th>
+                    <th scope="col">integration_ID</th>
+                    <th scope="col">last_UpdatedBy</th>
+                    <th scope="col">last_UpdatedDate</th>
+                    <th scope="col">mileage</th>
+                    <th scope="col">status</th>
+                    <th scope="col">rcs_InventoryLocationID</th>
+                    <th scope="col">deleteFlag</th>
+                    <th scope="col">id</th>
+                    <th scope="col">_id</th>
+                </tr>
+                </thead>
+                <tbody id="MyData">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<hr>
+    <div class="container mt-5 table-responsive" style="font-size: 12px;">
+        <table id="example2" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+            <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
+                RCSStockLoadDetail
+            </caption>
+            
+            <thead>
+              <tr class="bg-primary text-light">
+                <th scope="col">change_Number</th>
+                <th scope="col">commit_Flag</th>
+                <th scope="col">conflict_ID</th>
+                <th scope="col">created_by</th>
+                <th scope="col">created_date</th>
+                <th scope="col">masterCase</th>
+                <th scope="col">cartons</th>
+                <th scope="col">integration_Datetime</th>
+                <th scope="col">integration_ID</th>
+                <th scope="col">last_UpdatedBy</th>
+                <th scope="col">last_UpdatedDate</th>
+                <th scope="col">packs</th>
+                <th scope="col">quantity</th>
+                <th scope="col">rcs_Product_ID</th>
+                <th scope="col">rcs_StockLoadHeaderID</th>
+                <th scope="col">deleteFlag</th>
+                <th scope="col">rcs_InventoryLocation_ID</th>
+                <th scope="col">id</th>
+                <th scope="col">rcs_StockLoadDetailID</th>
+                <th scope="col">_id</th>
+              </tr>
+            </thead>
+            <tbody id="MyData2">
+            </tbody>
+        </table>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+
+  <script>
+	var myRCS = 
+    [
+		{
+		    "RCSMileAge": 
+		    [
+		      	{
+		        "change_Number": 0,
+		        "comments": "",
+		        "conflict_ID": 0,
+		        "created_by": "pdg_dss007",
+		        "created_date": "2022-06-30 07:58:25.356",
+		        "entry_Date": "2022-06-30 07:58:25.356",
+		        "entry_Time": "7:58",
+		        "integration_Datetime": null,
+		        "integration_ID": null,
+		        "last_UpdatedBy": "pdg_dss007",
+		        "last_UpdatedDate": "2022-06-30 07:58:25.357",
+		        "mileage": 150,
+		        "status": "Start",
+		        "rcs_InventoryLocationID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+		        "deleteFlag": false,
+		        "id": "BEF4E0C0-F80F-11EC-BB96-21B9C1D7E086",
+		        "_id": "BEF4E0C0-F80F-11EC-BB96-21B9C1D7E086"
+		    	}
+		    ]
+   		},
+           {
+    "RCSMileAge": [
+      {
+        "change_Number": 0,
+        "comments": "",
+        "conflict_ID": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:33:24",
+        "entry_Date": "2022-06-30 10:33:24",
+        "entry_Time": "10:33",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:33:24",
+        "mileage": 208,
+        "status": "End",
+        "rcs_InventoryLocationID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "id": "757C94E0-F825-11EC-BB96-21B9C1D7E086",
+        "_id": "757C94E0-F825-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.663",
+        "masterCase": null,
+        "cartons": 5,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.062",
+        "packs": 4,
+        "quantity": 54,
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "71E60615-000F-49AF-BCEE-439B9094C1F7",
+        "rcs_StockLoadDetailID": "71E60615-000F-49AF-BCEE-439B9094C1F7",
+        "_id": "71E60615-000F-49AF-BCEE-439B9094C1F7"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.677",
+        "masterCase": null,
+        "cartons": 4,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.071",
+        "packs": 8,
+        "quantity": 48,
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "846650A7-D87B-4A47-9A4E-02745BCD9BAD",
+        "rcs_StockLoadDetailID": "846650A7-D87B-4A47-9A4E-02745BCD9BAD",
+        "_id": "846650A7-D87B-4A47-9A4E-02745BCD9BAD"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.687",
+        "masterCase": null,
+        "cartons": 5,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.079",
+        "packs": 2,
+        "quantity": 52,
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "653B988E-CC8A-44E1-983B-3303AF9227C5",
+        "rcs_StockLoadDetailID": "653B988E-CC8A-44E1-983B-3303AF9227C5",
+        "_id": "653B988E-CC8A-44E1-983B-3303AF9227C5"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.697",
+        "masterCase": null,
+        "cartons": 4,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.089",
+        "packs": 2,
+        "quantity": 42,
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "9365C04B-DCB0-487D-896E-8996A5E55A42",
+        "rcs_StockLoadDetailID": "9365C04B-DCB0-487D-896E-8996A5E55A42",
+        "_id": "9365C04B-DCB0-487D-896E-8996A5E55A42"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.707",
+        "masterCase": null,
+        "cartons": 7,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.098",
+        "packs": 0,
+        "quantity": 70,
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "00539065-98AA-4B21-9C42-BDA03137B99A",
+        "rcs_StockLoadDetailID": "00539065-98AA-4B21-9C42-BDA03137B99A",
+        "_id": "00539065-98AA-4B21-9C42-BDA03137B99A"
+      }
+    ]
+  },
+]
+
+	buildTable(myRCS)
+	function buildTable(data){
+		var table = document.getElementById('MyData')
+        var table2 = document.getElementById('MyData2')
+		for (var i = 0; i < data.length; i++){
+            if(data[i]['RCSMileAge']){
+            var row = ` 
+			<tr>
+				<td>${data[i]['RCSMileAge'][0].change_Number}</td>
+				<td>${data[i]['RCSMileAge'][0].comments}</td>
+				<td>${data[i]['RCSMileAge'][0].conflict_ID}</td>
+				<td>${data[i]['RCSMileAge'][0].created_by}</td>
+				<td>${data[i]['RCSMileAge'][0].created_date}</td>
+				<td>${data[i]['RCSMileAge'][0].entry_Date}</td>
+				<td>${data[i]['RCSMileAge'][0].entry_Time}</td>
+				<td>${data[i]['RCSMileAge'][0].integration_Datetime}</td>
+				<td>${data[i]['RCSMileAge'][0].integration_ID}</td>
+				<td>${data[i]['RCSMileAge'][0].last_UpdatedBy}</td>
+				<td>${data[i]['RCSMileAge'][0].last_UpdatedDate}</td>
+				<td>${data[i]['RCSMileAge'][0].mileage}</td>
+				<td>${data[i]['RCSMileAge'][0].status}</td>
+				<td>${data[i]['RCSMileAge'][0].rcs_InventoryLocationID}</td>
+				<td>${data[i]['RCSMileAge'][0].deleteFlag}</td>
+				<td>${data[i]['RCSMileAge'][0].id}</td>
+				<td>${data[i]['RCSMileAge'][0]._id}</td>
+			</tr>
+            `;
+			table.innerHTML += row;
+        }
+
+            if(data[i]['RCSStockLoadDetail']){
+                var row2 = `
+                <tr>
+                    <td>${data[i]['RCSStockLoadDetail'][0].change_Number}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].commit_Flag}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].conflict_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].created_by}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].created_date}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].masterCase}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].cartons}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].integration_Datetime}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].integration_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].packs}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].quantity}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_Product_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_StockLoadHeaderID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].deleteFlag}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_InventoryLocation_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].id}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_StockLoadDetailID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0]._id}</td>
+                </tr>
+                `;
+                table2.innerHTML += row2;
+            }
+		}
+    }
+
+</script>
+
+
+
+<script>
+    $(document).ready(function () {
+    $('#example').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+    });
+    $('#example2').DataTable({
+        scrollY: 500,
+        scrollX: true,
+    });
+});
+</script>
+<script src="json-excel.js"></script>
+<script src="filesaver.js"></script>
+
+</html>
