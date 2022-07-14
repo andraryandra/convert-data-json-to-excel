@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SAMARA</title>
+    <title>PT. Satya Amarta Prima</title>
+    <link rel="icon" href="img/samara.jpg" type="image/gif" sizes="16x16">
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
@@ -70,12 +71,12 @@
     </div>
 
 <hr>
-    <div class="container mt-5 table-responsive" style="font-size: 12px;">
-        <table id="example2" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+      <br> 
+      <table id="example2" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
             <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSStockLoadDetail
             </caption>
-            
             <thead>
               <tr class="bg-primary text-light">
                 <th scope="col">change_Number</th>
@@ -103,9 +104,10 @@
             <tbody id="MyData2">
             </tbody>
         </table>
-        
     </div>
 
+    <br><br><br><br>
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 
@@ -363,12 +365,16 @@
         scrollX: true,
         dom: 'Bfrtip',
         buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print'
+            'excel'
         ],
     });
     $('#example2').DataTable({
         scrollY: 500,
         scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
     });
 });
 </script>
