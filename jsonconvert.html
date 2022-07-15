@@ -19,6 +19,8 @@
     <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>    
 
     <!-- Styles -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-button.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
@@ -30,15 +32,37 @@
         <!-- <h1 class="bg-info rounded-pill p-3 m-3 shadow-lg text-light fw-bold">Oprec SAMARA</h1> -->
         <img src="img/samara2.jpg" class="" alt="samara" width="30%" height="30%">
     </div>
-        <button onclick="tablesToExcel(['tbl1','tbl2','tbl3','tbl4','tbl5','tbl6','tbl7','tbl8','tbl9','tbl10','tbl11','tbl12','tbl13','tbl14','tbl15','tbl16','tbl17'], ['RCSMileAge','RCSStockLoadDetail','RCSInventoryLevel','RCSStockLoadHeader','RCSInventoryTXN','RCSCustomerCallDate','RCSCustomerRoute','RCSSalesOrderHeader','RCSSalesOrderDetail','RCSPayment','RCSInvoiceHeader','RCSInvoicePayment','RCSInvoiceDetail','RCSStockReconHeader','RCSStockReconDetail','RCSVROHeader','RCSVRODetail'], 'export.xls', 'Excel')" class="btn btn-success">Export to Excel</button>
-        <br>
+    <br>
+
+    <div class="text-center">
+      <!-- <button onclick="tablesToExcel(['tbl1','tbl2','tbl3','tbl4','tbl5','tbl6','tbl7','tbl8','tbl9','tbl10','tbl11','tbl12','tbl13','tbl14','tbl15','tbl16','tbl17'], ['RCSMileAge','RCSStockLoadDetail','RCSInventoryLevel','RCSStockLoadHeader','RCSInventoryTXN','RCSCustomerCallDate','RCSCustomerRoute','RCSSalesOrderHeader','RCSSalesOrderDetail','RCSPayment','RCSInvoiceHeader','RCSInvoicePayment','RCSInvoiceDetail','RCSStockReconHeader','RCSStockReconDetail','RCSVROHeader','RCSVRODetail'], 'export.xls', 'Excel')" 
+      class="btn btn-success rounded-pill p-3 fs-5 shadow">Download All Data Excel</button> -->
+
+      <!-- <div class="button-1 rounded-pill" data-tooltip="Size: 20Mb">
+        <div class="button-wrapper">
+          <div class="text">Download</div>
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path></svg>
+            </span>
+          </div>
+        </div> -->
+        
+        <button class="download-button px-3">
+          <div class="docs px-5 py-3 "><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 
+            Download All Data Excel
+          </div>
+          <div class="download" onclick="tablesToExcel(['tbl1','tbl2','tbl3','tbl4','tbl5','tbl6','tbl7','tbl8','tbl9','tbl10','tbl11','tbl12','tbl13','tbl14','tbl15','tbl16','tbl17'], ['RCSMileAge','RCSStockLoadDetail','RCSInventoryLevel','RCSStockLoadHeader','RCSInventoryTXN','RCSCustomerCallDate','RCSCustomerRoute','RCSSalesOrderHeader','RCSSalesOrderDetail','RCSPayment','RCSInvoiceHeader','RCSInvoicePayment','RCSInvoiceDetail','RCSStockReconHeader','RCSStockReconDetail','RCSVROHeader','RCSVRODetail'], 'export.xls', 'Excel')">
+            <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+          </div>
+        </button>
+    </div>
 
 
     //tabel 1
-    <div class="container mt-5 shadow" style="font-size: 12px;">
+    <div class="container mt-5 shadow font-table" >
     <br>
         <div class="table-responsive">
-            <table id="tbl1" class=" table caption-top table-hover table-striped shadow mt-2 mb-3 example1" width="100%">
+            <table id="tbl1" class=" table caption-top table-bordered table-hover table-striped shadow mt-2 mb-3 example1" width="100%">
                 <caption class="fw-bold fs-3 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                     RCSMileAge
                 </caption>
@@ -71,9 +95,9 @@
 
     //tabel 2
     <hr>
-    <div class="container mt-5 table-responsive shadow " style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl2" class="table caption-top table-hover table-striped shadow mt-3 mb-3 example2" width="100%">
+      <table id="tbl2" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example2" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                   RCSStockLoadDetail
               </caption>
@@ -108,9 +132,9 @@
 
     //data 3
     <hr>
-    <div class="container mt-5 table-responsive shadow " style="font-size: 14px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl3" class="table caption-top table-hover table-striped shadow mt-3 mb-3 example3" width="100%">
+      <table id="tbl3" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example3" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSInventoryLevel
               </caption>
@@ -136,9 +160,9 @@
 
     //data 4
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl4" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl4" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example4" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSStockLoadHeader
               </caption>
@@ -171,9 +195,9 @@
 
     //data 5
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl5" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl5" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example5" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSInventoryTXN
               </caption>
@@ -209,9 +233,9 @@
 
     //data 6
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl6" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl6" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example6" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSCustomerCallDate
               </caption>
@@ -250,9 +274,9 @@
 
     //data 7
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl7" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl7" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example7" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSCustomerRoute
               </caption>
@@ -282,9 +306,9 @@
 
     //data 8
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl8" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl8" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example8" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSSalesOrderHeader
               </caption>
@@ -346,9 +370,9 @@
 
     //data 9
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl9" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl9" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example9" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSSalesOrderDetail
               </caption>
@@ -420,9 +444,9 @@
 
     //data 10
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl10" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl10" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example10" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSPayment
               </caption>
@@ -472,9 +496,9 @@
     
     //data 11
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl11" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl11" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example11" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSInvoiceHeader
               </caption>
@@ -526,9 +550,9 @@
 
     //data 12
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl12" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl12" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example12" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSInvoicePayment
               </caption>
@@ -565,9 +589,9 @@
 
     //data 13
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl13" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl13" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example13" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSInvoiceDetail
               </caption>
@@ -618,9 +642,9 @@
 
     //data 14
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl14" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl14" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example14" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSStockReconHeader
               </caption>
@@ -654,9 +678,9 @@
 
     //data 15
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl15" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl15" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example15" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSStockReconDetail
               </caption>
@@ -693,9 +717,9 @@
 
     //data 16
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl16" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl16" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example16" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSVROHeader
               </caption>
@@ -730,9 +754,9 @@
 
     //data 17
     <hr>
-    <div class="container mt-5 table-responsive shadow" style="font-size: 12px;">
+    <div class="container mt-5 table-responsive shadow font-table">
       <br> 
-      <table id="tbl17" class="table caption-top table-hover table-striped shadow mt-3 mb-3" width="100%">
+      <table id="tbl17" class="table caption-top table-bordered table-hover table-striped shadow mt-3 mb-3 example17" width="100%">
               <caption class="fw-bold fs-5 text-light bg-info shadow text-start col-md-12 " style="padding-left: 15px;">
                 RCSVRODetail
               </caption>
@@ -4612,8 +4636,90 @@
             }
             
             //data 15
+            if(data[i]['RCSStockReconDetail']){
+                var row15 = `
+                <tr>
+                  <td>${data[i]['RCSStockReconDetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].created_by}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].created_date}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].quantity}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].saleable_Sys_Qty}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].stock_Condition}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unSaleable_Quantity}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unSaleable_Sys_Qty}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unsaleable_Variance_Reason}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].variance_Flag}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].variance_Reason}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_StockReconHeaderID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].id}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_StockReconDetailID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl15.innerHTML += row15;
+            }
+            
             //data 16
+            if(data[i]['RCSVROHeader']){
+                var row16 = `
+                <tr>
+                  <td>${data[i]['RCSVROHeader'][0].vroDate}</td>
+                  <td>${data[i]['RCSVROHeader'][0].vroType}</td>
+                  <td>${data[i]['RCSVROHeader'][0].status}</td>
+                  <td>${data[i]['RCSVROHeader'][0].vroNumber}</td>
+                  <td>${data[i]['RCSVROHeader'][0].reference}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_InvLoc_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_Route_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcsStockReconHeaderID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_Territory_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].created_by}</td>
+                  <td>${data[i]['RCSVROHeader'][0].created_date}</td>
+                  <td>${data[i]['RCSVROHeader'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSVROHeader'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSVROHeader'][0].change_Number}</td>
+                  <td>${data[i]['RCSVROHeader'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSVROHeader'][0].integration_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSVROHeader'][0].id}</td>
+                  <td>${data[i]['RCSVROHeader'][0]._id}</td>
+                </tr>
+                `;
+                tbl16.innerHTML += row16;
+            }
+            
             //data 17
+            if(data[i]['RCSVRODetail']){
+                var row17 = `
+                <tr>
+                  <td>${data[i]['RCSVRODetail'][0].rcs_VROHeaderID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].quantity}</td>
+                  <td>${data[i]['RCSVRODetail'][0].unsalableQuantity}</td>
+                  <td>${data[i]['RCSVRODetail'][0].commitFlag}</td>
+                  <td>${data[i]['RCSVRODetail'][0].created_by}</td>
+                  <td>${data[i]['RCSVRODetail'][0].created_date}</td>
+                  <td>${data[i]['RCSVRODetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSVRODetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSVRODetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSVRODetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSVRODetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSVRODetail'][0].id}</td>
+                  <td>${data[i]['RCSVRODetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl17.innerHTML += row17;
+            }
+            
 		}
     
     }
@@ -4715,6 +4821,68 @@
         ],
     });
     //data 11
+    $('.example11').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 12
+    $('.example12').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 13
+    $('.example13').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 14
+    $('.example14').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 15
+    $('.example15').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 16
+    $('.example16').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
+    //data 17
+    $('.example17').DataTable({
+        scrollY: 500,
+        scrollX: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'excel'
+        ],
+    });
 
 });
 </script>
