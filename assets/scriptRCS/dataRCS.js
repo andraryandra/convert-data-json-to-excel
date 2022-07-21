@@ -1,5 +1,243 @@
+var myRCS = 
 [
-  
+  {
+    "RCSMileAge": [
+      {
+        "change_Number": 0,
+        "comments": "",
+        "conflict_ID": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 07:58:25.356",
+        "entry_Date": "2022-06-30 07:58:25.356",
+        "entry_Time": "7:58",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 07:58:25.357",
+        "mileage": 150,
+        "status": "Start",
+        "rcs_InventoryLocationID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "id": "BEF4E0C0-F80F-11EC-BB96-21B9C1D7E086",
+        "_id": "BEF4E0C0-F80F-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.663",
+        "masterCase": null,
+        "cartons": 5,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.062",
+        "packs": 4,
+        "quantity": 54,
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "71E60615-000F-49AF-BCEE-439B9094C1F7",
+        "rcs_StockLoadDetailID": "71E60615-000F-49AF-BCEE-439B9094C1F7",
+        "_id": "71E60615-000F-49AF-BCEE-439B9094C1F7"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.677",
+        "masterCase": null,
+        "cartons": 4,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.071",
+        "packs": 8,
+        "quantity": 48,
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "846650A7-D87B-4A47-9A4E-02745BCD9BAD",
+        "rcs_StockLoadDetailID": "846650A7-D87B-4A47-9A4E-02745BCD9BAD",
+        "_id": "846650A7-D87B-4A47-9A4E-02745BCD9BAD"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.687",
+        "masterCase": null,
+        "cartons": 5,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.079",
+        "packs": 2,
+        "quantity": 52,
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "653B988E-CC8A-44E1-983B-3303AF9227C5",
+        "rcs_StockLoadDetailID": "653B988E-CC8A-44E1-983B-3303AF9227C5",
+        "_id": "653B988E-CC8A-44E1-983B-3303AF9227C5"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.697",
+        "masterCase": null,
+        "cartons": 4,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.089",
+        "packs": 2,
+        "quantity": 42,
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "9365C04B-DCB0-487D-896E-8996A5E55A42",
+        "rcs_StockLoadDetailID": "9365C04B-DCB0-487D-896E-8996A5E55A42",
+        "_id": "9365C04B-DCB0-487D-896E-8996A5E55A42"
+      }
+    ]
+  },
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "FWI_AM_007",
+        "created_date": "2022-06-30 07:52:43.707",
+        "masterCase": null,
+        "cartons": 7,
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.098",
+        "packs": 0,
+        "quantity": 70,
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_StockLoadHeaderID": "287AB67A-511E-43D6-9C10-2887B90FC7B0",
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "00539065-98AA-4B21-9C42-BDA03137B99A",
+        "rcs_StockLoadDetailID": "00539065-98AA-4B21-9C42-BDA03137B99A",
+        "_id": "00539065-98AA-4B21-9C42-BDA03137B99A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 54,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.190",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 48,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.207",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 52,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.223",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.238",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 70,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 08:01:32.251",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSStockLoadHeader": [
       {
@@ -257,6 +495,29 @@
         "status": "Z",
         "deleteFlag": false,
         "_id": "9BCCBB64-D7F6-EC11-B47A-0050F2A28833"
+      }
+    ]
+  },
+  {
+    "RCSMileAge": [
+      {
+        "change_Number": 0,
+        "comments": "",
+        "conflict_ID": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:33:24",
+        "entry_Date": "2022-06-30 10:33:24",
+        "entry_Time": "10:33",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:33:24",
+        "mileage": 208,
+        "status": "End",
+        "rcs_InventoryLocationID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "id": "757C94E0-F825-11EC-BB96-21B9C1D7E086",
+        "_id": "757C94E0-F825-11EC-BB96-21B9C1D7E086"
       }
     ]
   },
@@ -1461,7 +1722,374 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.137",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.533",
+        "rcs_Product_ID": "6A2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A12D9D70-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.16",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.537",
+        "rcs_Product_ID": "792959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A1316E00-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.177",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.547",
+        "rcs_Product_ID": "5A2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A133DF00-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.193",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.557",
+        "rcs_Product_ID": "652959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A1369E20-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.21",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.659",
+        "rcs_Product_ID": "752959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A1390F20-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.227",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.665",
+        "rcs_Product_ID": "462959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A13BCE40-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.247",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.675",
+        "rcs_Product_ID": "602959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A13E8D60-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-18 08:49:28.263",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.684",
+        "rcs_Product_ID": "4C2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "A140FE60-2FB5-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-20 08:44:59.917",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.695",
+        "rcs_Product_ID": "4B2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "562224C0-3147-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-20 08:50:21.117",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.707",
+        "rcs_Product_ID": "632959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "159538B0-3148-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2021-10-20 09:00:21.607",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.716",
+        "rcs_Product_ID": "5F2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "7B810770-3149-11EC-A437-87192589450F"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-11 07:55:41.243",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.722",
+        "rcs_Product_ID": "EC8B625A-868B-46DA-A93E-6579D601C8BD",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "55B7AA90-8AD5-11EC-B768-17B152B7E169"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 10:21:45.35",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.729",
+        "rcs_Product_ID": "9BF901D0-68A0-488C-94D4-9D03D1E9DF81",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "3CC5AB50-8D45-11EC-B0F4-1F43C37CB719"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-22 11:10:42.073",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.743",
+        "rcs_Product_ID": "5E2959A4-6F07-EC11-B562-C89665417E7F",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "0A117EB0-A996-11EC-84DD-914E9C03E730"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-24 08:12:04.033",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.752",
+        "rcs_Product_ID": "CF9BC3EC-7547-455B-86F5-D7266953C6FE",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "6A719310-AB0F-11EC-B903-499799B0CF71"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-04-01 07:58:00.817",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.762",
+        "rcs_Product_ID": "FC60CFA3-B9F6-433B-967A-4FCD484F3682",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "C726B7F0-B156-11EC-B2AC-9DE2B8762B16"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-04-01 07:58:00.843",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.768",
+        "rcs_Product_ID": "8DC43FE7-FE22-46BE-8694-C301E31C7125",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "C72AFDB0-B156-11EC-B2AC-9DE2B8762B16"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-17 08:00:28.047",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.776",
+        "rcs_Product_ID": "4FDA4218-5234-4FCB-8188-8179AFCC3F7A",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "E0B6D4C0-EDD8-11EC-AC78-4F0DE597D61B"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.784",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.791",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.798",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.807",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 0,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:43:30.812",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSInventoryTXN": [
       {
@@ -2777,7 +3405,189 @@
       }
     ]
   },
-  
+  {
+    "RCSStockLoadDetail": [
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:49:39.873",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.873",
+        "quantity": 70,
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_StockLoadHeaderID": "A99EC390-F827-11EC-BB96-21B9C1D7E086",
+        "cartons": 0,
+        "packs": 70,
+        "masterCase": null,
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "AB0BC110-F827-11EC-BB96-21B9C1D7E086",
+        "rcs_StockLoadDetailID": "AB0BC110-F827-11EC-BB96-21B9C1D7E086",
+        "_id": "AB0BC110-F827-11EC-BB96-21B9C1D7E086"
+      },
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:49:39.875",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.875",
+        "quantity": 52,
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_StockLoadHeaderID": "A99EC390-F827-11EC-BB96-21B9C1D7E086",
+        "cartons": 0,
+        "packs": 52,
+        "masterCase": null,
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "AB0C0F30-F827-11EC-BB96-21B9C1D7E086",
+        "rcs_StockLoadDetailID": "AB0C0F30-F827-11EC-BB96-21B9C1D7E086",
+        "_id": "AB0C0F30-F827-11EC-BB96-21B9C1D7E086"
+      },
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:49:39.876",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.877",
+        "quantity": 54,
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_StockLoadHeaderID": "A99EC390-F827-11EC-BB96-21B9C1D7E086",
+        "cartons": 0,
+        "packs": 54,
+        "masterCase": null,
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "AB0C3640-F827-11EC-BB96-21B9C1D7E086",
+        "rcs_StockLoadDetailID": "AB0C3640-F827-11EC-BB96-21B9C1D7E086",
+        "_id": "AB0C3640-F827-11EC-BB96-21B9C1D7E086"
+      },
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:49:39.878",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.878",
+        "quantity": 42,
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_StockLoadHeaderID": "A99EC390-F827-11EC-BB96-21B9C1D7E086",
+        "cartons": 0,
+        "packs": 42,
+        "masterCase": null,
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "AB0C8460-F827-11EC-BB96-21B9C1D7E086",
+        "rcs_StockLoadDetailID": "AB0C8460-F827-11EC-BB96-21B9C1D7E086",
+        "_id": "AB0C8460-F827-11EC-BB96-21B9C1D7E086"
+      },
+      {
+        "change_Number": 0,
+        "commit_Flag": false,
+        "conflict_ID": null,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-30 10:49:39.879",
+        "integration_Datetime": null,
+        "integration_ID": null,
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.879",
+        "quantity": 48,
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_StockLoadHeaderID": "A99EC390-F827-11EC-BB96-21B9C1D7E086",
+        "cartons": 0,
+        "packs": 48,
+        "masterCase": null,
+        "deleteFlag": false,
+        "rcs_InventoryLocation_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "id": "AB0CAB70-F827-11EC-BB96-21B9C1D7E086",
+        "rcs_StockLoadDetailID": "AB0CAB70-F827-11EC-BB96-21B9C1D7E086",
+        "_id": "AB0CAB70-F827-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 70,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.953",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": null,
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      },
+      {
+        "actualSalableQty": 52,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.960",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": null,
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 54,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.972",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": null,
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:39.981",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": null,
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 48,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 10:49:40.002",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": null,
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      }
+    ]
+  },
   {
     "RCSInventoryTXN": [
       {
@@ -4066,7 +4876,75 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 47,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:10:16.878",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 51,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:10:16.879",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 53,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:10:16.879",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 41,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:10:16.879",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 69,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:10:16.879",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSInvoiceHeader": []
   },
@@ -5361,6 +6239,75 @@
         "id": "51B7E090-F82B-11EC-BB96-21B9C1D7E086",
         "rcs_InvoiceDetail_ID": "51B7E090-F82B-11EC-BB96-21B9C1D7E086",
         "_id": "51B7E090-F82B-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 46,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:15:48.199",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 50,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:15:48.200",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 52,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:15:48.200",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 40,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:15:48.200",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 68,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:15:48.200",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -6828,6 +7775,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 45,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:20:01.951",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 49,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:20:01.951",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 51,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:20:01.951",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 39,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:20:01.952",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 67,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:20:01.952",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -7945,6 +8961,75 @@
         "id": "6B3F4202-F82C-11EC-BB96-21B9C1D7E086",
         "rcs_InvoiceDetail_ID": "6B3F4202-F82C-11EC-BB96-21B9C1D7E086",
         "_id": "6B3F4202-F82C-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 44,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:23:40.463",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 48,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:23:40.463",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 50,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:23:40.463",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 38,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:23:40.463",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 66,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:23:40.464",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -9296,6 +10381,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 43,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:26:12.395",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 47,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:26:12.395",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 49,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:26:12.395",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 37,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:26:12.396",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 65,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:26:12.396",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -10330,6 +11484,75 @@
         "id": "6A79BD31-F82E-11EC-BB96-21B9C1D7E086",
         "rcs_InvoiceDetail_ID": "6A79BD31-F82E-11EC-BB96-21B9C1D7E086",
         "_id": "6A79BD31-F82E-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:37:58.178",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 46,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:37:58.178",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 48,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:37:58.178",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 36,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:37:58.178",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 64,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:37:58.179",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -16069,7 +17292,75 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 41,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:44:49.878",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 45,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:44:49.878",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 47,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:44:49.878",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 35,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:44:49.878",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 63,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:44:49.878",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSInvoiceHeader": [
       {
@@ -18485,7 +19776,75 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 40,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:53:23.806",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 44,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:53:23.806",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 46,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:53:23.807",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 34,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:53:23.807",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 62,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:53:23.807",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSCustAssesHeader": [
       {
@@ -20056,6 +21415,75 @@
         "id": "3C899BE2-F831-11EC-BB96-21B9C1D7E086",
         "rcs_InvoiceDetail_ID": "3C899BE2-F831-11EC-BB96-21B9C1D7E086",
         "_id": "3C899BE2-F831-11EC-BB96-21B9C1D7E086"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 39,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:58:09.667",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 43,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:58:09.668",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 45,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:58:09.668",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 33,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:58:09.668",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 61,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 11:58:09.668",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -21639,7 +23067,75 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 38,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:04:21.708",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:04:21.708",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 44,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:04:21.708",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 32,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:04:21.708",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 60,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:04:21.708",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSInvoiceHeader": []
   },
@@ -22678,6 +24174,75 @@
         "id": "35513DE1-F833-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "35513DE1-F833-11EC-AF35-196B12282C9A",
         "_id": "35513DE1-F833-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 37,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:12:16.413",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 41,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:12:16.414",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 43,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:12:16.415",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 31,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:12:16.415",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 59,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:12:16.415",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -23799,6 +25364,75 @@
         "id": "B6173EC1-F833-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "B6173EC1-F833-11EC-AF35-196B12282C9A",
         "_id": "B6173EC1-F833-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 36,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:15:52.447",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 40,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:15:52.448",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:15:52.448",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 30,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:15:52.448",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 58,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:15:52.448",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -25120,6 +26754,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 35,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:23:28.846",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 39,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:23:28.846",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 41,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:23:28.847",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 29,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:23:28.847",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 57,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:23:28.847",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -26181,6 +27884,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 34,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:26:52.758",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 38,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:26:52.758",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 40,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:26:52.759",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 28,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:26:52.759",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 56,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:26:52.759",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -27106,6 +28878,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 33,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:29:17.234",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 37,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:29:17.235",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 39,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:29:17.235",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 27,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:29:17.235",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 55,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:29:17.235",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -27997,6 +29838,75 @@
         "id": "3DF128E2-F836-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "3DF128E2-F836-11EC-AF35-196B12282C9A",
         "_id": "3DF128E2-F836-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 32,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:33:59.361",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 36,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:33:59.362",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 38,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:33:59.362",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 26,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:33:59.362",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 54,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:33:59.362",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -29317,7 +31227,75 @@
       }
     ]
   },
-  
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 31,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:35:24.880",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 35,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:35:24.880",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 37,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:35:24.880",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 25,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:35:24.881",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 53,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 12:35:24.881",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
   {
     "RCSCustomerCallDate": [
       {
@@ -30606,6 +32584,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 30,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:04.892",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 34,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:04.892",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 36,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:04.892",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 24,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:04.892",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 52,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:04.892",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -31414,6 +33461,75 @@
         "id": "F4AA6790-F83B-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "F4AA6790-F83B-11EC-AF35-196B12282C9A",
         "_id": "F4AA6790-F83B-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 29,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:53.418",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 33,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:53.419",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 35,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:53.419",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 23,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:53.419",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 51,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:14:53.419",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -32332,6 +34448,75 @@
         "id": "4A6AEB51-F83C-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "4A6AEB51-F83C-11EC-AF35-196B12282C9A",
         "_id": "4A6AEB51-F83C-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 28,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:17:17.256",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 32,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:17:17.257",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 34,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:17:17.257",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 22,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:17:17.257",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 50,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:17:17.257",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -33625,6 +35810,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 27,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:27:27.170",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 31,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:27:27.170",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 33,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:27:27.170",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 21,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:27:27.170",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 49,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 13:27:27.171",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -34629,6 +36883,75 @@
         "id": "9888DC91-F849-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "9888DC91-F849-11EC-AF35-196B12282C9A",
         "_id": "9888DC91-F849-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 26,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:52:31.769",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 30,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:52:31.769",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 32,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:52:31.769",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 20,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:52:31.769",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 48,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:52:31.769",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -35724,6 +38047,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 25,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:58:48.408",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 29,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:58:48.408",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 31,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:58:48.409",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 19,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:58:48.409",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 47,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 14:58:48.409",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -36728,6 +39120,75 @@
         "id": "FDA57471-F84A-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "FDA57471-F84A-11EC-AF35-196B12282C9A",
         "_id": "FDA57471-F84A-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 24,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:02:30.898",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 28,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:02:30.899",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 30,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:02:30.899",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 18,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:02:30.899",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 46,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:02:30.899",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -37823,6 +40284,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 23,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:09:17.081",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 27,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:09:17.081",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 29,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:09:17.081",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 17,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:09:17.081",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 45,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:09:17.082",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSInvoiceHeader": []
   },
   {
@@ -38634,6 +41164,75 @@
         "id": "EE14E603-F84D-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "EE14E603-F84D-11EC-AF35-196B12282C9A",
         "_id": "EE14E603-F84D-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 22,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:23:33.282",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 26,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:23:33.282",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 28,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:23:33.282",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 16,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:23:33.282",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 44,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:23:33.283",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -39695,6 +42294,75 @@
         "id": "1D354290-F84E-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "1D354290-F84E-11EC-AF35-196B12282C9A",
         "_id": "1D354290-F84E-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 21,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:24:52.345",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 25,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:24:52.345",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 27,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:24:52.345",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 15,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:24:52.345",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 43,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:24:52.345",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -40790,6 +43458,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 20,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:29:58.543",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 24,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:29:58.544",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 26,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:29:58.544",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 14,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:29:58.544",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 42,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:29:58.544",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -41794,6 +44531,75 @@
         "id": "078BF3C1-F84F-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "078BF3C1-F84F-11EC-AF35-196B12282C9A",
         "_id": "078BF3C1-F84F-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 19,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:31:25.517",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 23,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:31:25.517",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 25,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:31:25.517",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 13,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:31:25.518",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 41,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:31:25.518",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -43058,6 +45864,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 18,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:44:48.010",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 22,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:44:48.010",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 24,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:44:48.011",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 12,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:44:48.011",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 40,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:44:48.011",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -43985,6 +46860,49 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 17,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:48:34.624",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 11,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:48:34.624",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 39,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:48:34.625",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -44682,6 +47600,49 @@
         "id": "1D5F14E0-F852-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "1D5F14E0-F852-11EC-AF35-196B12282C9A",
         "_id": "1D5F14E0-F852-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 16,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:53:30.601",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 10,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:53:30.601",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 38,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:53:30.602",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -45810,6 +48771,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 15,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:57:37.360",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 21,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:57:37.360",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 23,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:57:37.360",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 9,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:57:37.360",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 37,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 15:57:37.360",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSInvoiceHeader": []
   },
   {
@@ -46544,6 +49574,49 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 14,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:02:11.170",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 8,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:02:11.170",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 36,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:02:11.170",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSCustomerCallDate": [
       {
         "change_Number": 0,
@@ -47271,6 +50344,49 @@
         "id": "597C9180-F854-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "597C9180-F854-11EC-AF35-196B12282C9A",
         "_id": "597C9180-F854-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 13,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:09:30.491",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 7,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:09:30.491",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 35,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:09:30.491",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -48087,6 +51203,23 @@
         "id": "D5F41FD0-F854-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "D5F41FD0-F854-11EC-AF35-196B12282C9A",
         "_id": "D5F41FD0-F854-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 33,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:12:59.330",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -52818,6 +55951,62 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 12,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:29:37.017",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 20,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:29:37.018",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 6,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:29:37.018",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 31,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:29:37.018",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSInvoiceHeader": [
       {
         "change_Number": 0,
@@ -55339,6 +58528,75 @@
     ]
   },
   {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 11,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:36:39.299",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 19,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-28 08:10:50.03",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:36:39.299",
+        "rcs_Product_ID": "2BDB4260-0BEE-440C-810D-388BBC540591",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH FILTER 16 Y22 B",
+        "deleteFlag": false,
+        "_id": "25FD75D0-F67F-11EC-A7C3-917BC195DCBA"
+      },
+      {
+        "actualSalableQty": 22,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-05-30 09:02:03.043",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:36:39.299",
+        "rcs_Product_ID": "ACAD6795-4029-4CCE-812E-AA5AA81F267B",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "7FAB9640-DFBC-11EC-A0D2-DF5ADE1C8E2B"
+      },
+      {
+        "actualSalableQty": 5,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:36:39.299",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 30,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:36:39.299",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
+      }
+    ]
+  },
+  {
     "RCSInvoiceHeader": []
   },
   {
@@ -56235,6 +59493,49 @@
         "id": "B4C0FDC0-F858-11EC-AF35-196B12282C9A",
         "rcs_InvoiceDetail_ID": "B4C0FDC0-F858-11EC-AF35-196B12282C9A",
         "_id": "B4C0FDC0-F858-11EC-AF35-196B12282C9A"
+      }
+    ]
+  },
+  {
+    "RCSInventoryLevel": [
+      {
+        "actualSalableQty": 10,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-02-14 08:34:39.933",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:40:41.562",
+        "rcs_Product_ID": "C4BAF4A6-209A-4178-8049-67F15C44E2D9",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "DH MILD 16 Y22 A",
+        "deleteFlag": false,
+        "_id": "46ED25E0-8D36-11EC-B0F4-1F43C37CB719"
+      },
+      {
+        "actualSalableQty": 4,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-06-01 07:48:51.04",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:40:41.562",
+        "rcs_Product_ID": "3A603DA1-96B4-4588-97A0-281516A70AFF",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "LS FILTER 20 Y22 C",
+        "deleteFlag": false,
+        "_id": "9AA84EF0-E144-11EC-8A07-1929FA3A493B"
+      },
+      {
+        "actualSalableQty": 28,
+        "actualUnSalableQty": 0,
+        "created_by": "pdg_dss007",
+        "created_date": "2022-03-08 07:55:13.8",
+        "last_UpdatedBy": "pdg_dss007",
+        "last_UpdatedDate": "2022-06-30 16:40:41.562",
+        "rcs_Product_ID": "3BE062B0-D788-4F46-8252-00670695FDD6",
+        "rcs_InvLOC_ID": "B11C2115-7A07-EC11-B562-C89665417E7F",
+        "product_Name": "COMMODORE 20 Y22",
+        "deleteFlag": false,
+        "_id": "69B01970-9E7A-11EC-9552-0D8C62783827"
       }
     ]
   },
@@ -61721,3 +65022,667 @@
     ]
   }
 ]
+
+    buildTable(myRCS)
+    function buildTable(data){
+    var tbl1= document.getElementById('MyData')
+    var tbl2= document.getElementById('MyData2')
+    var tbl3= document.getElementById('MyData3')
+    var tbl4 = document.getElementById('MyData4')
+    var tbl5 = document.getElementById('MyData5')
+    var tbl6 = document.getElementById('MyData6')
+    var tbl7 = document.getElementById('MyData7')
+    var tbl8 = document.getElementById('MyData8')
+    var tbl9 = document.getElementById('MyData9')
+    var tbl10 = document.getElementById('MyData10')
+    var tbl11 = document.getElementById('MyData11')
+    var tbl12 = document.getElementById('MyData12')
+    var tbl13 = document.getElementById('MyData13')
+    var tbl14 = document.getElementById('MyData14')
+    var tbl15 = document.getElementById('MyData15')
+    var tbl16 = document.getElementById('MyData16')
+    var tbl17 = document.getElementById('MyData17')
+        for (var i = 0; i < data.length; i++){
+
+            //data 1
+            if(data[i]['RCSMileAge'] ){
+              var sub2=data[i]['RCSMileAge'];
+              for(var e = 0; e<sub2.length; e++){
+                var row = ` 
+                <tr>
+                  <td>${data[i]['RCSMileAge'][e].change_Number}</td>
+                  <td>${data[i]['RCSMileAge'][e].comments}</td>
+                  <td>${data[i]['RCSMileAge'][e].conflict_ID}</td>
+                  <td>${data[i]['RCSMileAge'][e].created_by}</td>
+                  <td>${data[i]['RCSMileAge'][e].created_date}</td>
+                  <td>${data[i]['RCSMileAge'][e].entry_Date}</td>
+                  <td>${data[i]['RCSMileAge'][e].entry_Time}</td>
+                  <td>${data[i]['RCSMileAge'][e].integration_Datetime}</td>
+                  <td>${data[i]['RCSMileAge'][e].integration_ID}</td>
+                  <td>${data[i]['RCSMileAge'][e].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSMileAge'][e].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSMileAge'][e].mileage}</td>
+                  <td>${data[i]['RCSMileAge'][e].status}</td>
+                  <td>${data[i]['RCSMileAge'][e].rcs_InventoryLocationID}</td>
+                  <td>${data[i]['RCSMileAge'][e].deleteFlag}</td>
+                  <td>${data[i]['RCSMileAge'][e].id}</td>
+                  <td>${data[i]['RCSMileAge'][e]._id}</td>
+                </tr>
+              `;
+              tbl1.innerHTML += row;
+              }
+          }
+            
+          //data 2
+            if(data[i]['RCSStockLoadDetail'] ){
+              var sub2=data[i]['RCSStockLoadDetail'];
+              for(var e = 0; e < sub2.length; e++){
+                var row2 = `
+                <tr>
+                    <td>${data[i]['RCSStockLoadDetail'][e].change_Number}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].commit_Flag}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].conflict_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].created_by}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].created_date}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].masterCase}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].cartons}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].integration_Datetime}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].integration_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].packs}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].quantity}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].rcs_Product_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].rcs_StockLoadHeaderID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][e].deleteFlag}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_InventoryLocation_ID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].id}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0].rcs_StockLoadDetailID}</td>
+                    <td>${data[i]['RCSStockLoadDetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl2.innerHTML += row2;
+              }
+            }
+            
+            //data 3
+            if(data[i]['RCSInventoryLevel'] ){
+              var sub2=data[i]['RCSInventoryLevel'];
+              for(var e = 0; e < sub2.length; e++){
+                var row3 = `
+                <tr>
+                    <td>${data[i]['RCSInventoryLevel'][0].actualSalableQty}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].actualUnSalableQty}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].created_by}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].created_date}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].rcs_Product_ID}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].rcs_InvLOC_ID}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].product_Name}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0].deleteFlag}</td>
+                    <td>${data[i]['RCSInventoryLevel'][0]._id}</td>
+                </tr>
+                `;
+                tbl3.innerHTML += row3;
+              }
+            }
+            
+            //data 4
+            if(data[i]['RCSStockLoadHeader'] ){
+              var sub2=data[i]['RCSStockLoadHeader'];
+              for(var e = 0; e < sub2.length; e++){
+                var row4 = `
+                <tr>
+                    <td>${data[i]['RCSStockLoadHeader'][0].change_Number}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].conflict_ID}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].created_by}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].created_date}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].integration_Datetime}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].integration_ID}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].load_Date}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].print_Flag}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].reference}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].status}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].stockLoad_Number}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].rcs_InvLoc_ID}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].deleteFlag}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].id}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0].rcs_StockLoadHeaderID}</td>
+                    <td>${data[i]['RCSStockLoadHeader'][0]._id}</td>
+                </tr>
+                `;
+                tbl4.innerHTML += row4;
+              }
+            }
+            
+            //data 5
+            if(data[i]['RCSInventoryTXN'] ){
+              var sub2=data[i]['RCSInventoryTXN'];
+              for(var e = 0; e < sub2.length; e++){
+                var row5 = `
+                <tr>
+                    <td>${data[i]['RCSInventoryTXN'][0].change_Number}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].conflict_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].created_by}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].created_date}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].deleteFlag}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].integration_Datetime}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].integration_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].inventoryTXN_Type}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].processed}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].qty}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].stock_Condition}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].transaction_Date}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].transaction_Number}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].rcs_SourceLoc_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].rcs_DestinationLoc_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].rcs_Product_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].rcs_InventoryTXN_ID}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0].id}</td>
+                    <td>${data[i]['RCSInventoryTXN'][0]._id}</td>
+                </tr>
+                `;
+                tbl5.innerHTML += row5;
+              }
+            }
+
+            //data 6
+            if(data[i]['RCSCustomerCallDate'] ){
+              var sub2=data[i]['RCSCustomerCallDate'];
+              for(var e = 0; e < sub2.length; e++){
+                var row6 = `
+                <tr>
+                    <td>${data[i]['RCSCustomerCallDate'][0].change_Number}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].conflict_ID}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].created_by}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].created_date}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].integration_Datetime}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].integration_ID}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].journey_Date}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].last_UpdatedBy}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].last_UpdatedDate}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].status}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].visit_Number}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].rcs_Customer_ID}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].rcs_Route_ID}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].gpsXCoordinate}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].gpsYCoordinate}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].is_Outside_Pref_Limit}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].visitSequence}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].deleteFlag}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].id}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].rcs_CustomerCallDate_ID}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0]._id}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].failureReason}</td>
+                    <td>${data[i]['RCSCustomerCallDate'][0].remarks}</td>
+                </tr>
+                `;
+                tbl6.innerHTML += row6;
+              }
+            }
+
+            //data 7
+            if(data[i]['RCSCustomerRoute'] ){
+              var sub2=data[i]['RCSCustomerRoute'];
+              for(var e = 0; e < sub2.length; e++){
+                var row7 = `
+                <tr>
+                  <td>${data[i]['RCSCustomerRoute'][0].change_Number}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].created_by}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].created_date}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].integration_ID}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].outlet_Order}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].rcs_Route_ID}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].visitSequence}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].status}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSCustomerRoute'][0]._id}</td>
+                </tr>
+                `;
+                tbl7.innerHTML += row7;
+              }
+            }
+            
+            //data 8
+            if(data[i]['RCSSalesOrderHeader'] ){
+              var sub2=data[i]['RCSSalesOrderHeader'];
+              for(var e = 0; e < sub2.length; e++){
+                var row8 = `
+                <tr>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].available_Credit}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].change_Number}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].cod}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].comments}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].created_by}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].created_date}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].customer_DiscountPct}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].delivery_Date}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].integration_ID}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].order_Date}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].order_Number}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].order_Status}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].order_Type}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].poNumber}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].print_Flag}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].quantity}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].tci_Dison_Bill_Bucket}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].tci_FOC_Bucket}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].total_Amount}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].totalAmountBaseCurr}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].order_Value}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].withhold_Tax}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].returnInvoiceRef}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].currency}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].exchangeRate}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].visitNumber}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].fiscalInvoiceRef}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].isQRScanned}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].signature}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].phoneNumber}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].fiscalNumber}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].trackingNumber}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].repDecide}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].totalDiscount}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].totalLineItemDiscount}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].id}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].rcs_SalesOrderHeader_ID}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].rcsDiscountRuleID}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].earlyPayment}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0]._id}</td>
+                  <td>${data[i]['RCSSalesOrderHeader'][0].repSelectedSkuCreditDays}</td>
+                </tr>
+                `;
+                tbl8.innerHTML += row8;
+              }
+            }
+            
+            //data 9
+            if(data[i]['RCSSalesOrderDetail'] ){
+              var sub2=data[i]['RCSSalesOrderDetail'];
+              for(var e = 0; e < sub2.length; e++){
+                var row9 = `
+                <tr>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].bonus_Quantity}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].created_by}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].created_date}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].delivery_Flag}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].discount_Pct}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].discounted_Price}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].free_Field1}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].free_Field2}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].free_Text_Field1}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].free_Text_Field2}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].net_Price}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].quantity}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].reason_For_Return}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].soq}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].stock_Condition}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].tax_Pct}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].tci_Bonus_Bucket}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].tci_Dis_Bucket}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].unit_Price}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].pricingDate}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rcs_SalesOrderHeader_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rebate_Discount}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].compensation_Qty}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].compliance_Discount}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rebate_TCIB}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].compliance_Disc_TCIB}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].compensaation_Qty_TCIB}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].compansation_SKU_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].comp_Unit_Price}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].cartons}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].packs}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].exciseTax}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].soh}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].aoh}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].poq}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].freeFlag}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].parentSalesOrderDetailID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rcsDiscountRuleID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].repDecide}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].assortmentProd_Seq}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].brandDiscount}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].masterCase}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].aoq}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].netPriceExclusiveDiscount}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].taxAmount}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].id}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0].rcs_SalesOrderDetail_ID}</td>
+                  <td>${data[i]['RCSSalesOrderDetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl9.innerHTML += row9;
+              }
+            }
+            
+            //data 10
+            if(data[i]['RCSPayment'] ){
+              var sub2=data[i]['RCSPayment'];
+              for(var e = 0; e < sub2.length; e++){
+                var row10 = `
+                <tr>
+                  <td>${data[i]['RCSPayment'][0].change_Number}</td>
+                  <td>${data[i]['RCSPayment'][0].cheque_BankName}</td>
+                  <td>${data[i]['RCSPayment'][0].cheque_Date}</td>
+                  <td>${data[i]['RCSPayment'][0].cheque_Instructions}</td>
+                  <td>${data[i]['RCSPayment'][0].cheque_Number}</td>
+                  <td>${data[i]['RCSPayment'][0].cheque_Reconcile_Flag}</td>
+                  <td>${data[i]['RCSPayment'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSPayment'][0].created_by}</td>
+                  <td>${data[i]['RCSPayment'][0].created_date}</td>
+                  <td>${data[i]['RCSPayment'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSPayment'][0].integration_ID}</td>
+                  <td>${data[i]['RCSPayment'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSPayment'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSPayment'][0].orderReference}</td>
+                  <td>${data[i]['RCSPayment'][0].payment_Amount}</td>
+                  <td>${data[i]['RCSPayment'][0].paymentAmountBaseCurr}</td>
+                  <td>${data[i]['RCSPayment'][0].payment_Date}</td>
+                  <td>${data[i]['RCSPayment'][0].payment_Mode}</td>
+                  <td>${data[i]['RCSPayment'][0].payment_Number}</td>
+                  <td>${data[i]['RCSPayment'][0].prePaymentFlag}</td>
+                  <td>${data[i]['RCSPayment'][0].void_Flag}</td>
+                  <td>${data[i]['RCSPayment'][0].paymentStatus}</td>
+                  <td>${data[i]['RCSPayment'][0].paymentBalance}</td>
+                  <td>${data[i]['RCSPayment'][0].clearningDocNumber}</td>
+                  <td>${data[i]['RCSPayment'][0].invoicePayment}</td>
+                  <td>${data[i]['RCSPayment'][0].invoiceReferenceNumber}</td>
+                  <td>${data[i]['RCSPayment'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSPayment'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSPayment'][0].id}</td>
+                  <td>${data[i]['RCSPayment'][0].rcs_PaymentsID}</td>
+                  <td>${data[i]['RCSPayment'][0]._id}</td>
+                  <td>${data[i]['RCSPayment'][0].mmpTxnNumber}</td>
+                  <td>${data[i]['RCSPayment'][0].currency}</td>
+                  <td>${data[i]['RCSPayment'][0].exchangeRate}</td>
+                  <td>${data[i]['RCSPayment'][0].visitNumber}</td>
+                </tr>
+                `;
+                tbl10.innerHTML += row10;
+              }
+            }
+            
+            //data 11
+            if(data[i]['RCSInvoiceHeader'] ){
+              var sub2=data[i]['RCSInvoiceHeader'];
+              for(var e = 0; e < sub2.length; e++){
+                var row11 = ` 
+                <tr>
+                  <td>${data[i]['RCSInvoiceHeader'][0].change_Number}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].created_by}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].created_date}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].customer_Discount_Pct}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].in_Dispute}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].integration_ID}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoice_Amount}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoiceAmountBaseCurr}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoice_Date}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoice_Due_Date}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoice_Number}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].invoice_Status}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].payment_Plan}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].print_Flag}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].printFlagReceipt}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].orderValue}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].withholdTax}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].clearningDocNumber}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].gtnRecieved}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].rcs_SalesOrderHeader_ID}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].rcsDiscountRuleId}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].totalDiscount}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].totalLineItemDiscount}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].currency}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].exchangeRate}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].visitNumber}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].contactNumber}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].signature}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].id}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0].rcs_InvoiceHeader_ID}</td>
+                  <td>${data[i]['RCSInvoiceHeader'][0]._id}</td>
+                </tr>
+                `;
+                tbl11.innerHTML += row11;
+              }
+            }
+            
+            //data 12
+            if(data[i]['RCSInvoicePayment'] ){
+              var sub2=data[i]['RCSInvoicePayment'];
+              for(var e = 0; e < sub2.length; e++){
+                var row12 = `
+                <tr>
+                  <td>${data[i]['RCSInvoicePayment'][0].allocation_Amount}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].allocationAmountBaseCurr}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].currency}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].exchangeRate}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].allocation_Date}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].change_Number}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].created_by}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].created_date}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].integration_ID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].void_Flag}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].gtnReceived}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].rcs_InvoiceHeaderID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].rcs_PaymentsID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].id}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0].rcs_InvoicePaymentsID}</td>
+                  <td>${data[i]['RCSInvoicePayment'][0]._id}</td>
+                </tr>
+                `;
+                tbl12.innerHTML += row12;
+              }
+            }
+            
+            //data 13
+            if(data[i]['RCSInvoiceDetail'] ){
+              var sub2 =data[i]['RCSInvoiceDetail'];
+              for(var e = 0; e < sub2.length; e++){
+                var row13 = `
+                <tr>
+                  <td>${data[i]['RCSInvoiceDetail'][0].bonus_Quantity}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].created_by}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].created_date}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].discount_Pct}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].discounted_Price}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].net_Price}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].quantity}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].tax_Pct}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].unit_Price}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rcs_InvoiceHeader_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rebate_Discount}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].compensation_Qty}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].compliance_Discount}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rebate_TCIB}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].compliance_Disc_TCIB}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].compensaation_Qty_TCIB}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].compensation_SKU_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].comp_Unit_Price}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].exciseTax}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rcs_Customer_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].freeFlag}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rcsDiscountRuleID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].assortmentProd_Seq}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].netPriceExclusiveDiscount}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].taxAmount}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].id}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0].rcs_InvoiceDetail_ID}</td>
+                  <td>${data[i]['RCSInvoiceDetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl13.innerHTML += row13;
+              }
+            }
+            
+            //data 14
+            if(data[i]['RCSStockReconHeader'] ){
+              var sub2=data[i]['RCSStockReconHeader'];
+              for(var e = 0; e < sub2.length; e++){
+                var row14 = `
+                <tr>
+                  <td>${data[i]['RCSStockReconHeader'][0].change_Number}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].computeFlag}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].created_by}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].created_date}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].integration_ID}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].print_Flag}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].recon_Date}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].status}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].stockRecon_Number}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].rcs_InvLoc_ID}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].stockReconType}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].id}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0].rcs_StockReconHeaderID}</td>
+                  <td>${data[i]['RCSStockReconHeader'][0]._id}</td>
+                </tr>
+                `;
+                tbl14.innerHTML += row14;
+              }
+            }
+            
+            //data 15
+            if(data[i]['RCSStockReconDetail'] ){
+              var sub2=data[i]['RCSStockReconDetail'];
+              for(var e = 0; e < sub2.length; e++){
+                var row15 = `
+                <tr>
+                  <td>${data[i]['RCSStockReconDetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].created_by}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].created_date}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].quantity}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].saleable_Sys_Qty}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].stock_Condition}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unSaleable_Quantity}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unSaleable_Sys_Qty}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].unsaleable_Variance_Reason}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].variance_Flag}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].variance_Reason}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_StockReconHeaderID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].id}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0].rcs_StockReconDetailID}</td>
+                  <td>${data[i]['RCSStockReconDetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl15.innerHTML += row15;
+              }
+            }
+            
+            //data 16
+            if(data[i]['RCSVROHeader'] ){
+              var sub2=data[i]['RCSVROHeader'];
+              for(var e = 0; e < sub2.length; e++){
+                var row16 = `
+                <tr>
+                  <td>${data[i]['RCSVROHeader'][0].vroDate}</td>
+                  <td>${data[i]['RCSVROHeader'][0].vroType}</td>
+                  <td>${data[i]['RCSVROHeader'][0].status}</td>
+                  <td>${data[i]['RCSVROHeader'][0].vroNumber}</td>
+                  <td>${data[i]['RCSVROHeader'][0].reference}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_InvLoc_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_Route_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcsStockReconHeaderID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].rcs_Territory_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].created_by}</td>
+                  <td>${data[i]['RCSVROHeader'][0].created_date}</td>
+                  <td>${data[i]['RCSVROHeader'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSVROHeader'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSVROHeader'][0].change_Number}</td>
+                  <td>${data[i]['RCSVROHeader'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSVROHeader'][0].integration_ID}</td>
+                  <td>${data[i]['RCSVROHeader'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSVROHeader'][0].id}</td>
+                  <td>${data[i]['RCSVROHeader'][0]._id}</td>
+                </tr>
+                `;
+                tbl16.innerHTML += row16;
+              }
+            }
+            
+            //data 17
+            if(data[i]['RCSVRODetail'] ){
+              var sub2=data[i]['RCSVRODetail'];
+              for(var e = 0; e < sub2.length; e++){
+                var row17 = `
+                <tr>
+                  <td>${data[i]['RCSVRODetail'][0].rcs_VROHeaderID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].rcs_Product_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].quantity}</td>
+                  <td>${data[i]['RCSVRODetail'][0].unsalableQuantity}</td>
+                  <td>${data[i]['RCSVRODetail'][0].commitFlag}</td>
+                  <td>${data[i]['RCSVRODetail'][0].created_by}</td>
+                  <td>${data[i]['RCSVRODetail'][0].created_date}</td>
+                  <td>${data[i]['RCSVRODetail'][0].last_UpdatedBy}</td>
+                  <td>${data[i]['RCSVRODetail'][0].last_UpdatedDate}</td>
+                  <td>${data[i]['RCSVRODetail'][0].change_Number}</td>
+                  <td>${data[i]['RCSVRODetail'][0].conflict_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].integration_Datetime}</td>
+                  <td>${data[i]['RCSVRODetail'][0].integration_ID}</td>
+                  <td>${data[i]['RCSVRODetail'][0].deleteFlag}</td>
+                  <td>${data[i]['RCSVRODetail'][0].id}</td>
+                  <td>${data[i]['RCSVRODetail'][0]._id}</td>
+                </tr>
+                `;
+                tbl17.innerHTML += row17;
+              }
+            }
+        }
+    
+    }
